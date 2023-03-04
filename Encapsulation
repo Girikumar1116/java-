@@ -1,0 +1,23 @@
+package com.inspirave.model;
+public class Address
+{
+    private int id;
+    private String addressLine1;
+    private String addressLine2;
+    private String street;
+    private String city;
+    private int zip;
+    private String state;
+    private String country;
+    private String latitude;
+    private String longitude;
+    private String userid; // getter setter method 
+
+    public static void main(String[] args)
+    {
+        Address a=new Address();   
+        a.id=4;
+        System.out.println(a.id);
+
+    }
+}
